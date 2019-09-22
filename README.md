@@ -14,14 +14,22 @@ The starter project includes the following project files:
 `styles/styles.sass` the SASS file that imports Bulma and allows you to make global modifications (https://bulma.io/documentation/customize/concepts/).
 
 ## How to install and run
-Git clone this repository, make a new repository for your new project, and then set that new repository as the remote.
+Make a new empty GitHub repository for your new website project, then git clone this repository, and set the new GitHub repository you just created as the remote. For more details on how to create a new repository and set it as remote, see https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line.
 
-Once you've set it up, run the server with
+In terminal, run
+```bash
+git clone https://github.com/ImFeelingDucky/nextjs-static-starter.git
+# Create an new empty GitHub repository for this project, and copy the URL.
+# For example, using the URL https://github.com/me/my-nextjs-static-site.git
+git remote set-url origin https://github.com/ImFeelingDucky/delet-this.git
+```
+
+Once you've done that, start the development server with
 ```bash
 npm run dev
 ```
 
-Lastly, customise your package.json.
+Lastly, customise your package.json by updating the `"name"`, `"author"`, `"license"` and other fields to your details.
 
 ## Workflow recommendation
 After installing this starter as explained above, it's time to start building.
