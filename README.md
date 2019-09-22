@@ -14,7 +14,14 @@ The starter project includes the following project files:
 `styles/styles.sass` the SASS file that imports Bulma and allows you to make global modifications (https://bulma.io/documentation/customize/concepts/).
 
 ## How to install and run
-Make a new empty GitHub repository for your new website project, then git clone this repository, and set the new GitHub repository you just created as the remote, as follows: (for more details on how to create a new repository and set it as remote, see https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line.)
+To start, you'll need to get a copy of this project on your computer, and it should be linked to a new GitHub repository for your website project. You can easily set this up a new repository with a copy of everything in this one,
+
+Just click the green `Use Template` button above this readme, copy the URL of your new repository (for example, https://github.com/me/MYNEWREPOSITORY), then run
+```
+git clone https://github.com/me/MYNEWREPOSITORY
+```
+
+Or, you can manually make a new empty GitHub repository for your new website project, then git clone this repository, and set the new GitHub repository you just created as the remote, as follows: (for more details on how to create a new repository and set it as remote, see https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line.)
 ```bash
 git clone https://github.com/ImFeelingDucky/nextjs-static-starter.git
 # Create an new empty GitHub repository for this project, and copy the URL.
@@ -22,17 +29,14 @@ git clone https://github.com/ImFeelingDucky/nextjs-static-starter.git
 git remote set-url origin https://github.com/ImFeelingDucky/delet-this.git
 ```
 
-Then install the dependencies.
+Then install the dependencies and start the development server with
 ```bash
 npm install
-```
-
-Once you've done that, start the development server with
-```bash
 npm run dev
 ```
 
 Lastly, you probably want to customise your package.json by updating the `"name"`, `"author"`, `"license"` and other fields to your details.
+
 ## Workflow recommendation
 After installing this starter as explained above, it's time to start building.
 
